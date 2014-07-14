@@ -5,7 +5,7 @@ This repo holds the Python and R code I used to make submision to [Kaggle's Acqu
 
 ## Method
 
-* This competition is about dealing with "big data" (around 20G+) and mostly about feature engineering. To handling this amount of data and construct feature, I rely on Python. In specific, the corresponding code in the ./Python folder are based on Kaggler @Triskelion's [implementation](http://mlwave.com/predicting-repeat-buyers-vowpal-wabbit/). (Many Thanks to @Triskelion)
+* This competition is about dealing with "big data" (around 20G+) and mostly about feature engineering. To handling this amount of data and construct feature, I rely on Python. In specific, the corresponding code in the `./Python` folder are based on Kaggler @Triskelion's [implementation](http://mlwave.com/predicting-repeat-buyers-vowpal-wabbit/). (Many Thanks to @Triskelion)
 
 * For the training phase, I have tried various models: 
 
@@ -25,18 +25,18 @@ This repo holds the Python and R code I used to make submision to [Kaggle's Acqu
   
 ## Instruction
 
-* download data from the [competition website](http://www.kaggle.com/c/acquire-valued-shoppers-challenge/data) and put all the data into ./Data dir
- - ./Data/transactions.csv
- - ./Data/trainHistory.csv
- - ./Data/testHistory.csv
- - ./Data/offers.csv
+* download data from the [competition website](http://www.kaggle.com/c/acquire-valued-shoppers-challenge/data) and put all the data into `./Data` dir
+ - `./Data/transactions.csv`
+ - `./Data/trainHistory.csv`
+ - `./Data/testHistory.csv`
+ - `./Data/offers.csv`
  
 * put all the code into ./ dir:
- - ./Python/...
- - ./R/... 
+ - `./Python/...`
+ - `./R/...`
  
-* run ./Python/generate_features.py to generate the features
+* run `./Python/generate_features.py` to generate the features
 
-* run ./Python/train_gbm.py to train GradientBoostingClassifier (score around 0.605)
+* run `./Python/train_gbm.py` to train GradientBoostingClassifier (score around 0.605)
 
-* run ./R/train_glm.R to train unbagging/bagging version of glm (score around 0.609)
+* run `./R/train_glm.R` to train unbagging/bagging version of glm (score around 0.609)
