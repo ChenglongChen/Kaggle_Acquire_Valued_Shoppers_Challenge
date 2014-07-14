@@ -32,6 +32,7 @@ This repo holds the Python and R code I used to make submision to Kaggle's Acqui
 * put all the code into ./ dir:
  - ./R/...
  - ./Python/...
+ 
 If you don't want to do this, you have to specify the correct path to the data in the functions.
 
 * run ./Python/generate_features.py to generate the features
