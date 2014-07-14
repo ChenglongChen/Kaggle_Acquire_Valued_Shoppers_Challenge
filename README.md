@@ -33,8 +33,6 @@ This repo holds the Python and R code I used to make submision to Kaggle's Acqui
  - ./R/...
  - ./Python/...
  
-If you don't want to do this, you have to specify the correct path to the data in the functions.
-
 * run ./Python/generate_features.py to generate the features
 
 * run ./Python/train_gbm.py to train GradientBoostingClassifier (score around 0.605)
